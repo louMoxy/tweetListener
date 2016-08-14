@@ -1,0 +1,65 @@
+/*------- Global Styling ------*/
+body {
+  height: 100%;
+  width: 100%;  
+  font-family: 'Raleway', sans-serif;
+  line-height: 2em;
+  background: #EAEDF2;
+}
+
+header {
+  padding: 20px;
+  min-height: 90px;
+  background:#5EAADE;
+  margin-bottom: 25px;
+  color: #fff;
+}
+footer {
+  background:#5EAADE;
+  color: #fff;
+}
+.container {
+  max-width: 1152px;
+  margin: 0 auto;
+  float: none;
+  padding: 20px;
+}
+/*------- Elements Styling ------*/
+.tweetBox {
+  background: #fff;
+  min-height: 160px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0px 0px 6px -2px;
+  padding-right: 20px;
+}
+
+#logo {
+  width: 50%;
+  float: left;
+  display: inline-block;
+   }
+#logo img {
+  max-width: 150px;
+  display: inline-block;
+  float: left;
+}
+#queryBox {
+  float: right; 
+}
+.pic {
+    float: left;
+    display: inline-block;
+    width: 160px;
+    height: auto;
+    position: relative;
+    margin-right: 20px;
+}
+#whiteBox {
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  margin: 0 auto;
+  float: none;
+}
